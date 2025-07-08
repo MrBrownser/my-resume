@@ -49,12 +49,12 @@ export function FloatingNav() {
         transition={{ duration: 0.3 }}
       >
         <div className="relative px-4 py-3 rounded-full bg-zinc-800/80 backdrop-blur-md border border-zinc-700/50 shadow-lg">
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full blur opacity-50"></div>
+          <div className="absolute -inset-0.5 bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-full blur opacity-50"></div>
 
           {isMobile ? (
             <div className="relative flex items-center justify-between">
               <Link href="/" className="font-bold text-lg">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Mr</span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-red-600">Mr</span>
                 <span className="text-white">Brownser</span>
               </Link>
               <Button
@@ -69,7 +69,7 @@ export function FloatingNav() {
           ) : (
             <div className="relative flex items-center gap-1">
               <Link href="/" className="font-bold text-lg mr-4">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Mr</span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-red-600">Mr</span>
                 <span className="text-white">Brownser</span>
               </Link>
               {navItems.map((item) => (
@@ -84,7 +84,7 @@ export function FloatingNav() {
               ))}
               <Button
                 size="sm"
-                className="ml-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 border-0"
+                className="ml-2 bg-gradient-to-r from-orange-500 to-red-500 hover:from-red-500 hover:to-orange-500 border-0"
               >
                 Resume
               </Button>
@@ -106,13 +106,13 @@ export function FloatingNav() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="px-8 py-4 text-2xl font-medium text-white hover:text-purple-400 transition-colors"
+                className="px-8 py-4 text-2xl font-medium text-white hover:text-orange-400 transition-colors"
                 onClick={handleNavClick}
               >
                 {item.name}
               </Link>
             ))}
-            <Button className="mt-6 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 border-0">
+            <Button className="mt-6 bg-gradient-to-r from-orange-500 to-red-500 hover:from-red-500 hover:to-orange-500 border-0">
               Resume
             </Button>
           </div>

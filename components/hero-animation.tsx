@@ -42,7 +42,7 @@ export function HeroAnimation() {
         this.size = Math.random() * 5 + 1
         this.speedX = Math.random() * 2 - 1
         this.speedY = Math.random() * 2 - 1
-        this.color = `hsl(${Math.random() * 60 + 200}, 70%, 60%)`
+        this.color = `hsl(${Math.random() * 40 + 15}, 70%, 60%)`
       }
 
       update() {
@@ -79,7 +79,7 @@ export function HeroAnimation() {
       ctx.clearRect(0, 0, canvas.width, canvas.height)
 
       // Draw connections
-      ctx.strokeStyle = "rgba(120, 180, 255, 0.1)"
+      ctx.strokeStyle = "rgba(255, 120, 80, 0.1)"
       ctx.lineWidth = 1
 
       for (let i = 0; i < particlesArray.length; i++) {

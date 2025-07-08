@@ -23,9 +23,9 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+          <div className="absolute top-20 left-10 w-72 h-72 bg-orange-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
           <div className="absolute top-40 right-10 w-72 h-72 bg-yellow-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
-          <div className="absolute bottom-20 left-1/3 w-72 h-72 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+          <div className="absolute bottom-20 left-1/3 w-72 h-72 bg-red-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
         </div>
 
         <div className="container relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -33,12 +33,12 @@ export default function Portfolio() {
             <div className="inline-block">
               <div className="relative px-3 py-1 text-sm font-medium rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-4 mt-4">
                 <span className="relative z-10">Product Lead &amp; Engineering Manager</span>
-                <span className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-500/20 to-pink-500/20 animate-pulse"></span>
+                <span className="absolute inset-0 rounded-full bg-gradient-to-r from-orange-500/20 to-red-500/20 animate-pulse"></span>
               </div>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
               <span className="block">Hi, I'm</span>
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-red-600">
                 Adrià Castany Serrano  
               </span>
             </h1>
@@ -46,15 +46,15 @@ export default function Portfolio() {
               I craft exceptional digital experiences with code, creativity, and a passion for innovation.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
-              <Button className="relative overflow-hidden group bg-gradient-to-r from-purple-500 to-pink-500 border-0">
+              <Button className="relative overflow-hidden group bg-gradient-to-r from-orange-500 to-red-500 border-0">
                 <span className="relative z-10 flex items-center">
                   View Projects <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </span>
-                <span className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                <span className="absolute inset-0 bg-gradient-to-r from-red-500 to-orange-500 opacity-0 group-hover:opacity-100 transition-opacity"></span>
               </Button>
               <Button
                 variant="outline"
-                className="border-zinc-700 text-pink-500 hover:text-pink-700 hover:border-zinc-500"
+                className="border-zinc-700 text-red-500 hover:text-red-700 hover:border-zinc-500"
               >
                 Contact Me
               </Button>
@@ -107,8 +107,8 @@ export default function Portfolio() {
       {/* About Section */}
       <section id="about" className="py-32 relative">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/4 right-1/4 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-          <div className="absolute bottom-1/3 left-1/3 w-64 h-64 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute top-1/4 right-1/4 w-64 h-64 bg-orange-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute bottom-1/3 left-1/3 w-64 h-64 bg-red-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
         </div>
 
         <div className="container relative z-10">
@@ -116,7 +116,7 @@ export default function Portfolio() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-16">
             <div className="relative">
-              <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-purple-500/20 to-pink-500/20 blur-xl opacity-70"></div>
+              <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-orange-500/20 to-red-500/20 blur-xl opacity-70"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-zinc-800">
                 <img
                   src="/placeholder.svg?height=600&width=600"
@@ -169,7 +169,7 @@ export default function Portfolio() {
                 </div>
 
                 <div className="mt-8">
-                  <Button className="bg-zinc-800 hover:bg-zinc-700 text-white">Download Resume</Button>
+                  <Button className="bg-zinc-800/80 hover:bg-zinc-700 text-zinc-300 hover:text-white border border-zinc-600 hover:border-zinc-500">Download Resume</Button>
                 </div>
               </GlassmorphicCard>
             </div>
@@ -180,8 +180,8 @@ export default function Portfolio() {
       {/* Skills Section */}
       <section id="skills" className="py-32 relative">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/3 left-1/4 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-          <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute top-1/3 left-1/4 w-64 h-64 bg-amber-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-orange-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
         </div>
 
         <div className="container relative z-10">
@@ -207,7 +207,7 @@ export default function Portfolio() {
       {/* Projects Section */}
       <section id="projects" className="py-32 relative">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/4 left-1/3 w-64 h-64 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute top-1/4 left-1/3 w-64 h-64 bg-red-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
           <div className="absolute bottom-1/3 right-1/4 w-64 h-64 bg-yellow-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
         </div>
 
@@ -270,8 +270,8 @@ export default function Portfolio() {
       {/* Experience Section */}
       <section id="experience" className="py-32 relative">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/3 right-1/3 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-          <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute top-1/3 right-1/3 w-64 h-64 bg-orange-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-amber-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
         </div>
 
         <div className="container relative z-10">
@@ -286,8 +286,8 @@ export default function Portfolio() {
       {/* Contact Section */}
       <section id="contact" className="py-32 relative">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-          <div className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-red-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-orange-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
         </div>
 
         <div className="container relative z-10">
@@ -299,7 +299,7 @@ export default function Portfolio() {
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
-                    <Mail className="h-5 w-5 text-purple-400" />
+                    <Mail className="h-5 w-5 text-orange-400" />
                   </div>
                   <div>
                     <div className="text-sm text-zinc-500">Email</div>
@@ -308,7 +308,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
-                    <Linkedin className="h-5 w-5 text-purple-400" />
+                    <Linkedin className="h-5 w-5 text-orange-400" />
                   </div>
                   <div>
                     <div className="text-sm text-zinc-500">LinkedIn</div>
@@ -317,7 +317,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
-                    <Github className="h-5 w-5 text-purple-400" />
+                    <Github className="h-5 w-5 text-orange-400" />
                   </div>
                   <div>
                     <div className="text-sm text-zinc-500">GitHub</div>
@@ -346,7 +346,7 @@ export default function Portfolio() {
           <div>
             <Link href="/" className="font-bold text-xl">
               <span className="text-white">Mr</span>
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Brownser</span>
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-red-600">Brownser</span>
             </Link>
             <p className="text-sm text-zinc-500 mt-2">
               © {new Date().getFullYear()} Adrià Castany Serrano. All rights reserved.
