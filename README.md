@@ -1,12 +1,8 @@
-# Creative Portfolio
+# Adrià Castany Serrano - Portfolio
 
-A modern and responsive creative portfolio built using [v0.dev](https://v0.dev) by Vercel.
+A modern and responsive portfolio showcasing my experience as a Product Lead and Engineering Manager. Built with Next.js, TypeScript, and Tailwind CSS.
 
-![Creative Portfolio Preview](./preview.png)
-
-## Live Demo
-
-Check out the live demo: [https://v0-creative-portfolio-o7.vercel.app/](https://v0-creative-portfolio-o7.vercel.app/)
+![Portfolio Preview](./preview.png)
 
 ## Features
 
@@ -30,12 +26,12 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    \`\`\`bash
-   git clone https://github.com/shinekyaw/Creative-Portfolio.git
+   git clone https://github.com/MrBrownser/my-resume.git
    \`\`\`
 
 2. Navigate to the project directory:
    \`\`\`bash
-   cd Creative-Portfolio
+   cd my-resume
    \`\`\`
 
 3. Install dependencies:
